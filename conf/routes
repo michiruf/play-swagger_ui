@@ -1,0 +1,12 @@
+# This file defines all module routes (Higher priority routes first)
+#
+# import these routes in the main app as :
+# *     /api-doc                module:swagger-ui
+#
+# ~~~~
+
+GET     /public/swagger_ui/     staticDir:public/swagger_ui
+
+GET     /                       swagger_ui.SwaggerUIController.index
+GET     /index.html             swagger_ui.SwaggerUIController.index
+GET     /o2c.html               swagger_ui.SwaggerUIController.o2c
