@@ -7,6 +7,6 @@
 
 GET     /public/swagger_ui/     staticDir:public/swagger_ui
 
-GET     /                       swagger_ui.SwaggerUIController.index
+GET     /?                      swagger_ui.SwaggerUIController.index
 GET     /index.html             swagger_ui.SwaggerUIController.index
 GET     /o2c.html               swagger_ui.SwaggerUIController.o2c
